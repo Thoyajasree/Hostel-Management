@@ -97,11 +97,11 @@ public class Hostel
 
               // compare check name with name and return true if present and false if not
 
-				if(splited[0].equals(checkName))
+				if(splited[0].equals(name))
 
 				{
 
-					return false;
+					return true;
 
 				}
 
@@ -117,7 +117,7 @@ public class Hostel
 
         }
 
-        return true;
+        return false;
 
     }
 
